@@ -1,0 +1,48 @@
+chameleon:
+  separate: true
+  adj_norm: row
+  lr: 0.005
+  weight_decay: 0
+  dropout: 0.45
+
+squirrel:
+  separate: true
+  adj_norm: row
+  lr: 0.005
+  weight_decay: 0
+  dropout: 0.45
+
+film:
+  separate: true
+  adj_norm: row
+  lr: 0.02
+  weight_decay: 0.0025
+  dropout: 0.4
+
+photo:
+  separate: true
+  adj_norm: row
+  lr: 0.01
+  weight_decay: 0
+  dropout: 0.5
+
+computers:
+  separate: true
+  adj_norm: row
+  lr: 0.01
+  weight_decay: 0
+  dropout: 0.5
+
+deezer-europe:
+  separate: true
+  adj_norm: row
+  lr: 0.05
+  weight_decay: 0.008
+  dropout: 0.6
+
+tolokers:
+  separate: true
+  adj_norm: row
+  lr: 0.0005
+  weight_decay: 0.001
+  dropout: 0.35
